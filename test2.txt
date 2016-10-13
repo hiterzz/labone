@@ -2,3 +2,4 @@ second test file
 
 changed in b1
 changed in b2->c4
+changed in b2
