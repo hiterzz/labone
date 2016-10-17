@@ -231,7 +231,7 @@ public class calculator{
                     return false;
                 }else {
                     if (exp_str.equals(""))
-                        System.out.println(exp_int);
+                        System.out.println(exp_int);//实验三，在B2上做修改
                     else
                         System.out.println(exp_str);
                 }
