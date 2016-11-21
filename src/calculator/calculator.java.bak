@@ -67,6 +67,7 @@ public class calculator{
             cmd_group=cmd_line.split(" ");
         }
 
+		//白盒测试读取表达式函数
         boolean read_exp(String cmd_line){
             int exp_len=cmd_line.length();
             char exp_first=cmd_line.charAt(0);
