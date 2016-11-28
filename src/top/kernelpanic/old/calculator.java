@@ -1,4 +1,5 @@
-package calculator;
+package top.kernelpanic.old;
+
 import java.util.Scanner;
 
 public class calculator{
@@ -67,7 +68,6 @@ public class calculator{
             cmd_group=cmd_line.split(" ");
         }
 
-		//白盒测试读取表达式
         boolean read_exp(String cmd_line){
             int exp_len=cmd_line.length();
             char exp_first=cmd_line.charAt(0);
@@ -100,7 +100,6 @@ public class calculator{
             return str;
         }
 
-		//黑盒测试表达式变量赋值后的结果
         boolean cal_exp(){
             int cmdgrp_len=cmd_group.length;
             int expgrp_len=exp_group.length;
@@ -170,7 +169,7 @@ public class calculator{
             return false;
         }
 
-        void qiudao(char ch){//为了实验三在此做第一次改变
+        void qiudao(char ch){
             int expgrp_len=exp_group.length;
 
             for(int i=0;i<expgrp_len;i++){
@@ -265,5 +264,3 @@ public class calculator{
     }
 
 }
-
-
